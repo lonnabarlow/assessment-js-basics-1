@@ -19,7 +19,7 @@ let gitDefinition = "A program version control system";
 */
 
 //CODE HERE
-let gitHub = "A web based interface that uses Git, allowing multiple people to interact with shared files.";
+let gitHubDefinition = "A web based interface that uses Git, allowing multiple people to interact with shared files.";
 
 //////////////////PROBLEM 3////////////////////
 /*
@@ -37,7 +37,7 @@ let gitInitDefinition = "Initializing a local repository right in that folder.";
 */
 
 //CODE HERE
-let gitClone = "Git command line utility used to create a clone, or copy of the target repository. Cloning a local or remote repository.";
+let gitCloneDefinition = "Git command line utility used to create a clone, or copy of the target repository. Cloning a local or remote repository.";
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -58,6 +58,8 @@ let gitStatusDefinition = "A command used to get information about the repo you 
 */
 
 //CODE HERE
+let gitAddDefinition = "Git add is the first command in a chain of operations that directs Git to save a snapshot of the current project state, into the commit history.";
+
 let gitAddCode = "Adds files to be tracked in the repository.";
 //////////////////PROBLEM 7////////////////////
 /*
@@ -70,6 +72,8 @@ let gitAddCode = "Adds files to be tracked in the repository.";
 
 //CODE HERE
 let gitCommitDefinition = "Creates a snapshot of the files you are tracking.";
+
+let gitCommitCode = " The git commit command saves all currently staged changes of the project. Commits are created to capture the current state of a project.";
 
 
 

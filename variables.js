@@ -24,11 +24,11 @@ let lovesCode = true;
 */
 
 //CODE HERE
-let favNum = 13;
-if (favNum < 13){
-  console.log("not lucky 13")
-}else if( favNum === 13){
+
+if (favNum === 13){
   console.log("lucky 13!")
+}else {
+  console.log(" not lucky 13")
 };
 
 //////////////////PROBLEM 5////////////////////
@@ -38,6 +38,6 @@ if (favNum < 13){
 
 //CODE HERE
 
-for (let i = 0; i < 6; i++){
-  console.log([i])
+for (let i = 0; i < 5; i++){
+  console.log(favNum)
 };

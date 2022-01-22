@@ -1,18 +1,18 @@
 
-const readline = require("readline")
-console, log(" Welcome to the  password validator tool")
+const readline = require("readline");
 
-
-const reader = createPassword({
+const reader = readline.createInterface({
 input: process.stdin,
 output: process.stdout,
 });
 
-const question = ["Enter Password"]
-for (let i = 0; question.length; i++){
-if(question[i] === 9){
-    console.log("Welcome friend")
-}else{
-    console.log("Whoops, try again")
+console, log("Welcome to the  password validation tool")
+
+reader.question = ("What is your password?" , function(answer){
+  if (answer.length >= 10){
+    console.log("Welcome friend, password valid")
+  } else {
+      console.log("Whoops, try again")
 }
-}
+  reader.close()
+})

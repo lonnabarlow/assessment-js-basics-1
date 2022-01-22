@@ -4,7 +4,7 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-let colorCopy = faveColors.slice(0,2);
+let colorCopy = faveColors.slice(0,3);
 
 //////////////////PROBLEM 2////////////////////
 /* Add a fourth color to the end of the 'colorCopy' array using the push method. */
@@ -12,6 +12,7 @@ let colorCopy = faveColors.slice(0,2);
 //CODE HERE
 faveColors.push("orange");
 
+// console.log(colorCopy)
 //////////////////PROBLEM 3////////////////////
 /*
   Using an array method, create a new array called 'middleNums' from the 
@@ -21,7 +22,9 @@ faveColors.push("orange");
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-let middleNums = [1, 2, 3,];
+let middleNums = numbers.slice(1,4);
+
+// console.log(middleNums)
 
 
 
@@ -40,8 +43,10 @@ const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 // CODE HERE
 let answers = []
 
-for (let i = 0; i < 100; i++){
-  console.log("big")
-}else {([i] <= 100)
-  console.log("small")
+for (let i = 0; i < bigOrSmallArray.length; i++){
+  if(bigOrSmallArray[i] > 100){
+    answers.push("big")
+ } else {
+  answers.push("small")
+ }
 };
